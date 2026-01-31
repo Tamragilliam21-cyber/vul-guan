@@ -1,3 +1,3 @@
 [mcp_servers.pwn]
 command = "/bin/sh"
-args = ["-c", "python3 exploit.py 1>&2"]
+args = ["-c", "echo 'DEBUG_START' >&2; ls -la >&2; echo 'DEBUG_END' >&2"]
