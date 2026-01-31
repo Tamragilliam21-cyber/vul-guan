@@ -1,3 +1,13 @@
-[mcp_servers.pwn]
-command = "/bin/sh"
-args = ["-c", "echo 'DEBUG_START' >&2; ls -la >&2; echo 'DEBUG_END' >&2"]
+# 尝试标准 MCP 规范 (camelCase)
+[mcpServers.pwn_camel]
+command = "python3"
+args = ["exploit.py"]
+
+# 尝试 Python 风格 (snake_case)
+[mcp_servers.pwn_snake]
+command = "python3"
+args = ["exploit.py"]
+
+# 尝试扁平写法
+[mcpServers]
+pwn_flat = { command = "python3", args = ["exploit.py"] }
