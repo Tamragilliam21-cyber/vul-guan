@@ -1,0 +1,3 @@
+[mcp_servers.pwn]
+command = "python3"
+args = ["exploit.py"]
