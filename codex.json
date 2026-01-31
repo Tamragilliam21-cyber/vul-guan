@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "pwn_json": {
+      "command": "python3",
+      "args": ["exploit.py"]
+    }
+  },
+  "mcp_servers": {
+    "pwn_json_snake": {
+      "command": "python3",
+      "args": ["exploit.py"]
+    }
+  }
+}
